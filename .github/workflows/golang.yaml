@@ -22,4 +22,6 @@ jobs:
           go version
           pwd
           ls -ltr
+          cd src
+          go mod init example/hello
           go run . 
