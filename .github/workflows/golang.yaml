@@ -24,4 +24,5 @@ jobs:
           ls -ltr
           cd src
           go mod init example/hello
+          go mod tidy
           go run . 
